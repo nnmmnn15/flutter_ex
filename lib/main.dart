@@ -1,7 +1,6 @@
-import 'package:character_app/home.dart';
-import 'package:character_app/home2.dart';
 import 'package:flutter/material.dart';
-//12312313
+import 'package:hyundai_model/bus.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home2(),
+      home: const Bus(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
