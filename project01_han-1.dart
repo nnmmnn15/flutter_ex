@@ -1,7 +1,7 @@
 import 'project01_han_calc.dart';
 
 main(){
-  project01 calc = project01();
+  Bmi calc = Bmi();
 
   double weight= 75.0;
   double height= 1.70;

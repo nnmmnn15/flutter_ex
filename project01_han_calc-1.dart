@@ -1,4 +1,4 @@
-class project01{
+class Bmi{
   late double num1;  
   late double num2;
   
