@@ -29,3 +29,10 @@
             '/2nd' : (context) => const SeccondPage(),
           },
         initialRoute: '/',  // 초기 페이지 지정
+        
+    앱바 버튼 :
+        actions: [
+          IconButton(
+              onPressed: () => goRecievemailPage(context),
+              icon: const Icon(Icons.email_outlined)),
+        ],
